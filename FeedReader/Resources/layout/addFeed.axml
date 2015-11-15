@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Enter Feed URL:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="56.6dp"
+        android:id="@+id/textView1"
+        android:textColor="#ff292424" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="53.2dp"
+        android:id="@+id/textUri" />
+    <Button
+        android:text="Submit Url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addUrlButton"
+        android:textColor="#ffffff"
+        android:background="#3498DB" />
+</LinearLayout>
